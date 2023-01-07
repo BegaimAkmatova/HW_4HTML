@@ -1,0 +1,94 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Kaushan Script',
+     cursive;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1000px;
+}
+li{
+  list-style: none; 
+}
+a{
+    text-decoration: none;
+}
+.links{
+    display:flex;
+    align-items: center;
+}
+.link{
+    margin: 0 10px;
+}
+.link a{
+    color: #ffc222;
+}
+.home{
+   background-image: url("./img/services.jpg");
+   height: 100vh;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+}
+.icon{
+    font-size: 23px;
+}
+.blog{
+    background-image: url("./img/small_item_3958.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    background-image: url("./img/kartinka_motivatsiya_tsitata_9.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.service{
+    background-image: url("./img/1540286445_002-dr3hp_wtdqi.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    background-image: url("./img/11ab147894a7d2ce866ff88a4aa63655.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    height: 400px;
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
